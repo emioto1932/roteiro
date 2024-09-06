@@ -29,5 +29,7 @@ main {
 }
 
 img {
-    max-width: 90%;
+    width: 100px; /* ou qualquer valor desejado */
+    height: auto; /* Para manter a proporção */
 }
+
