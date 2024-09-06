@@ -1,4 +1,3 @@
-
 body {
     background-color: #1D4221;
     color: white;
@@ -22,20 +21,13 @@ button {
 
 .passo.ativo {
     display:block;
+}
+
 main {
     text-align: center;
     max-width: 90%;
 }
+
 img {
-    max-width: 100%; /* Limita a largura máxima ao tamanho do contêiner */
-    height: auto;    /* Mantém a proporção da altura da imagem */
-    display: block;  /* Remove o espaço em branco ao redor da imagem */
-    z-index: 1; /* Define a imagem como a camada inferior */
-    position: relative;
+    max-width: 90%;
 }
-.btn-proximo {
-    z-index: 2; /* Define o texto e botões como camadas superiores */
-    position: relative;
-}
-
-
